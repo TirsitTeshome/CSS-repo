@@ -1,0 +1,267 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Light.ttf);}
+    
+    body {
+    font-family:Poppins;
+    background-color: rgba(247, 226, 254, 255);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2px;
+    padding: 15px;
+   
+}
+
+.container {
+
+    display: flex;
+    background-color: rgba(247, 226, 254, 255);
+    width: 80%;
+    margin: 40px auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-section {
+
+    background-color: rgba(247, 226, 254, 255);
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    border-right: solid 0.5px #eb71c6;
+    height: 743px;
+    padding: 0px;
+    margin-left: 30px;
+
+}
+
+.left-section h2 {
+    color: #cf37c2;
+    font-size: 50px;
+    margin-bottom: 0px;
+
+}
+
+.left-section img {
+    width: 500px;
+    height: 76%;
+    object-fit: cover;
+}
+
+.right-section {
+    padding: 25px;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 50%;
+    height: 730px;
+
+}
+
+h2 {
+    color: #333;
+    font-size: 30px;
+    padding: 10px 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#first_sentence {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    color: #666;
+}
+
+#second {
+    padding-left: 90px;
+    font-size: 15px;
+    color: #2e2c2ce8;
+    margin-bottom: 20px;
+}
+
+form {
+    display: block;
+    width: 60%;
+}
+
+.input-group {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    color: darkgray;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+#passw {
+    top: 36px;
+    right: 5px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#cpassw {
+    top: 15px;
+    right: 5px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.eye {
+    position: relative;
+}
+
+#eye {
+    position: relative;
+}
+
+input[type="text"] {
+    width: 138%;
+}
+
+label {
+    color: #2e2c2ce8;
+}
+
+.left-section[type="image"] {
+    height: 610px;
+    width: 610px;
+    object-fit: cover;
+
+}
+
+button {
+    background-color: #cf37c2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2px;
+    width: 105%;
+    margin-bottom: 18px;
+    font-size: 20px;
+
+}
+
+button:hover {
+    background-color: #5e1a9a;
+}
+
+a {
+    color: #af549e;
+    text-decoration: none;
+}
+
+.option-lines {
+    position: relative;
+    padding-left: 60px;
+    color: rgb(160, 160, 160);
+    margin-top: 30px;
+    text-indent: 23%;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #a8141be0;
+}
+
+.option-lines:before {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    right: 71%;
+    background: darkgray;
+}
+
+.option-lines:after {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    right: 8%;
+    background: darkgrey;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 10px;
+    padding-right: 230px;
+    margin-right: 130px;
+
+}
+
+.social-icons button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 1px;
+
+}
+
+.google {
+    x: 0px;
+    y: 0px;
+    width: 40px;
+    height: 30px;
+    margin-bottom: 50px;
+    padding: 6px 30px;
+    border: solid 1px;
+    border-radius: 4px;
+    color: white;
+    background-color: white;
+    margin-left: 80px;
+}
+
+.facebook {
+    font-size: 30px;
+    color: #2179BD;
+    margin-bottom: 100px;
+    width: 40px;
+    height: 30px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.apple {
+    font-size: 30px;
+    margin-bottom: 100px;
+    width: 40px;
+    height: 30px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
